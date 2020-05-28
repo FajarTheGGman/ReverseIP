@@ -27,6 +27,7 @@ a.question("Input : ", (asw) => {
 req("https://api.hackertarget.com/reverseiplookup/?q=" + `${asw}`, function(error, response,body){
     console.log("output : ");
 	console.log(body);
+process.exit(1);
 });
 
 });
